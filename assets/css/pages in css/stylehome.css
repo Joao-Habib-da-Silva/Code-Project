@@ -1,0 +1,6 @@
+@import url(/assets/css/global/global.css);
+img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
