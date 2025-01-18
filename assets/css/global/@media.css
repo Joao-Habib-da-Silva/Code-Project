@@ -1,11 +1,6 @@
 @media (max-width: 450px) {
-    header li {
-       display: none;
-    }
-   header h1 {padding: 0%;
-      }
-    #navbar {
-        display: none;
+       #navbar {
+        display: flex;
     }
 
 }

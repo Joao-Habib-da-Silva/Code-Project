@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background-color: #0b182c;
     color: white; 
     overflow-x: hidden}
 header {
@@ -12,6 +12,8 @@ header {
     justify-content: space-between;
     letter-spacing: 1px; 
     display: flex;
+    background-color: #001d3d;
+    height: 80px;
 }
 header a {
     color: white;
@@ -52,9 +54,12 @@ header h1:hover {
     font-family: poppins;
     font-weight: 600;
     font-size: large;
-    transform: translatex(200px);
+    transform: translatex(300px);
     display: flex;
     transition: 1s ease-in-out; 
+    background-color: #001d3d;
+    height: 620px;
+   
 }
 #navbar.open {
     display: flex;
@@ -70,8 +75,9 @@ header h1:hover {
     cursor: pointer;
 }
 #navbar ul {
-    margin-top: 85px;
+    padding-top: 80px;
     margin-right: 80px;
+    padding-left: 80px;
 }
 #navbar li {
     list-style:none;
@@ -80,6 +86,7 @@ header h1:hover {
 #navbar li:hover {
  color: #ade8f4;
 }
+
 #content {
  height: 640px;
    
