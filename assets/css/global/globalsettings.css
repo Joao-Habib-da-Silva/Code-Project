@@ -8,27 +8,26 @@ body {
     color: white; 
     overflow-x: hidden}
 header {
-    font-family: inter;
+    font-family: Poppins;
     justify-content: space-between;
     letter-spacing: 2px; 
     display: flex;
     background-color: #669bbc;
     height: 80px;
 }
-header a {
-    color: white;
-    text-decoration: none;
-}
 header h1 {
     margin-left: 100px;
     font-size: xx-large;
     padding-top: 20px;
     cursor: pointer;
-    
+}
+header a {
+    color: white;
+    text-decoration: none;
 }
 header ul {
     padding-top: 30px ;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-right: 50px;
 }
 header li {
@@ -36,8 +35,16 @@ header li {
     list-style: none;
     display: inline-block;
     margin-left: 30px;
-
-   
+}
+header i{
+    font-size: 2.0em;
+    margin-top: 23px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header i:hover {
+    color: #03045e;
+    transition: 0.5s ease-in-out;
 }
 header li:hover {
     color: #ade8f4;
@@ -48,7 +55,9 @@ header h1:hover {
     transition: 0.5s ;
 }
 
-
+#selected {
+    color: #ade8f4;
+}
 #navbar {
     float: right;
     font-family: poppins;
@@ -68,14 +77,8 @@ header h1:hover {
 #navbar a {
     text-decoration: none;
     color: white;
+}
 
-}
-header i{
-    font-size: 2.0em;
-    margin-top: 23px;
-    margin-right: 10px;
-    cursor: pointer;
-}
 
 #navbar ul {
     padding-top: 80px;
@@ -115,18 +118,4 @@ footer a i:hover {
   transition: 1s ease-in-out;
   color: #03045e;
     
-}
-#content {
-    display: flex;
-    align-items: center;
-}
-#content img {
-    float: left;
-    object-fit: cover;
-    margin-left: 90px;
-    height: 500px;
-    width: 500px;
-}
-#selected {
-    color: #ade8f4;
 }

@@ -4,3 +4,44 @@ img {
     height: 40px;
     margin-top: 20px;
 }
+#content {
+    display: flex;
+    align-items: center;
+}
+#content img {
+    float: left;
+    object-fit: cover;
+    margin-left: 90px;
+    height: 500px;
+    width: 500px;
+}
+#write {
+    font-family: poppins;
+    margin-left: 130px;
+    margin-bottom: 80px;
+}
+#write p {
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 600;
+}
+#write ul {
+    margin-top: 40px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: larger;
+  
+}
+#write li {
+    font-family:roboto ;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-right: px;
+}
+#write li:hover {
+    color: #03045e;
+    transition: 0.2s ease-in-out;
+}
+li::marker {
+    color: transparent;
+}
