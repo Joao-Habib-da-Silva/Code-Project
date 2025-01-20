@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #669bbc;
     color: white; 
     overflow-x: hidden}
 header {
@@ -12,7 +11,6 @@ header {
     justify-content: space-between;
     letter-spacing: 2px; 
     display: flex;
-    background-color: #669bbc;
     height: 80px;
 }
 header h1 {
@@ -26,7 +24,7 @@ header a {
     text-decoration: none;
 }
 header ul {
-    padding-top: 30px ;
+    padding-top: 30px;
     margin-left: 550px;
     margin-right: 50px;
 }
@@ -43,18 +41,14 @@ header i{
     cursor: pointer;
 }
 header i:hover {
-    color: #03045e;
     transition: 0.5s ease-in-out;
 }
 header li:hover {
-    color: #ade8f4;
     transition: 0.5s;
 }
 header h1:hover {
-    color:#ade8f4;
     transition: 0.5s ;
 }
-
 #selected {
     color: #ade8f4;
 }
@@ -66,9 +60,7 @@ header h1:hover {
     transform: translatex(300px);
     display: flex;
     transition: 1s ease-in-out; 
-    background-color: #669bbc;
     height: 620px;
-   
 }
 #navbar.open {
     display: flex;
@@ -78,8 +70,6 @@ header h1:hover {
     text-decoration: none;
     color: white;
 }
-
-
 #navbar ul {
     padding-top: 80px;
     margin-right: 80px;
@@ -89,23 +79,16 @@ header h1:hover {
     list-style:none;
     margin-top: 30px;
 }
-#navbar li:hover {
- color: #ade8f4;
-}
-
 #content {
  height: 640px;
-   
 }
 footer {
-    background-color: #5691b6;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 footer i {
-    color: white;
     font-size: 2.0em;
     margin-left: 40px;
     border-radius: 60%;
@@ -113,9 +96,6 @@ footer i {
     transition: 1s ease-in-out;
 }
 footer a i:hover {
-  border: 1px solid #03045e;
   transform: scale(1.20);
-  transition: 1s ease-in-out;
-  color: #03045e;
-    
+  transition: 1s ease-in-out; 
 }
