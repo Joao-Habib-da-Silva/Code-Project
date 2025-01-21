@@ -53,14 +53,16 @@ header h1:hover {
     color: #ade8f4;
 }
 #navbar {
-    float: right;
+    position: fixed;
+    right: 0;
     font-family: poppins;
     font-weight: 600;
     font-size: large;
-    transform: translatex(300px);
+    transform: translatex(500px);
     display: flex;
     transition: 1s ease-in-out; 
     height: 620px;
+    background-color: #ade8f4;
 }
 #navbar.open {
     display: flex;
@@ -82,6 +84,7 @@ header h1:hover {
 #content {
  height: 640px;
 }
+
 footer {
     height: 150px;
     display: flex;
