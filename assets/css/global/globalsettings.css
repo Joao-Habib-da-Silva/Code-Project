@@ -64,6 +64,7 @@ header h1:hover {
     transition: 1s ease-in-out; 
     height: 620px;
     background-color: #ade8f4;
+    z-index: 1000;
 }
 #navbar.open {
     display: flex;
