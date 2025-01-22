@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     color: white; 
@@ -80,6 +81,9 @@ header h1:hover {
 #navbar li {
     list-style:none;
     margin-top: 30px;
+}
+#navbar li:hover {
+    transition: 0.5s ;
 }
 #content {
  height: 640px;

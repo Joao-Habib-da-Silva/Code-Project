@@ -4,6 +4,10 @@ img {
     height: 40px;
     margin-top: 20px;
 }
+body {
+    color: white;
+    background-color: #669bbc;
+}
 #content {
     display: flex;
     align-items: center;
@@ -45,10 +49,7 @@ img {
 li::marker {
     color: transparent;
 }
-body {
-color: white;
-background-color: #669bbc;
-}
+
 header {
     background-color: #669bbc;
 

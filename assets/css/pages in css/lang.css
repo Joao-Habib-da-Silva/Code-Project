@@ -1,0 +1,72 @@
+@import url(/assets/css/global/global.css);
+header {
+    background-color: #1d3557;
+}
+header i:hover {
+    color: #dedbd2;
+}
+header li:hover {
+    color: #00b4d8;
+}
+header h1:hover {
+    color: #00b4d8;
+}
+#selected {
+    color: #00b4d8;
+}
+#navbar {
+    background-color: #1d3557;
+}
+#navbar li:hover {
+    color: #00b4d8;
+}
+#content {
+    background-color: #1d3557;
+}
+footer {
+    background-color: #1d3d6b;
+}
+footer i {
+    color: white;
+}
+footer a i:hover {
+    border: 1px solid #4cc9f0;
+    color: #4cc9f0;
+}
+#fpart {
+    background-color: #1d3557;
+    display:flex;
+    height: 1030px;
+    padding-left: 60px;
+    overflow: hidden; 
+    }
+
+.square {
+    height: 430px;
+    display: inline-block;
+    vertical-align: top;
+    width: 430px;
+    background-color: #14263e;
+    border-radius: 20px; 
+    margin-top: 50px;
+    margin-right: 40px;
+    font-family: poppins;
+}
+.square h5 {
+    padding: 50px;
+}
+
+
+#text {
+    background-color: #1d3557;
+    font-family: poppins;
+    font-size:medium;
+    padding-left: 90px;
+    padding-top: 20px;
+
+}
+#text h1:hover {
+    color: #00b4d8;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
