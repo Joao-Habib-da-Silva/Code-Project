@@ -1,33 +1,37 @@
 @import url(/assets/css/global/global.css); 
+:root {
+    --background: #9d4edd;
+    --fontcolor: #3c096c;
+}
 body {
     color: white;
 }
 header {
-    background-color: #9d4edd;
+    background-color: var(--background);
 }
 header i:hover {
     color: #6a040f;
 }
 header li:hover {
-    color: #3c096c;
+    color: var(--fontcolor);
 }
 header h1:hover {
-    color: #3c096c;
+    color: var(--fontcolor);
 }
 #selected {
-    color: #3c096c;
+    color: var(--fontcolor);
 }
 #navbar {
-    background-color: #9d4edd;
+    background-color: var(--background);
 }
  #navbar li:hover {
-     color: #3c096c;
+     color: var(--fontcolor);
 }
 #content {
-    background-color: #9d4edd;
+    background-color: var(--background);
 }
 #container {
-    background-color: #9d4edd;
+    background-color: var(--background);
     height: 640px;
         
 }
