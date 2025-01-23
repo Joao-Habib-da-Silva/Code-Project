@@ -15,6 +15,8 @@ header {
     letter-spacing: 2px; 
     display: flex;
     height: 80px;
+    z-index: 10000;
+    position: fixed;
 }
 header h1 {
     margin-left: 100px;
@@ -66,6 +68,7 @@ header h1:hover {
     transition: 1s ease-in-out; 
     height: 620px;
     background-color: #ade8f4;
+    height: 1000px;
     z-index: 1000;
 }
 #navbar.open {

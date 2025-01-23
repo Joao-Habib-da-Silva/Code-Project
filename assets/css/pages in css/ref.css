@@ -41,13 +41,20 @@ footer a i:hover {
     border: 1px solid var(--footeri);
     color: var(--footeri);
 }
-#fpart {
-    background-color: var(--background);
-    display:flex;
-    height: 1030px;
+#content {
     padding-left: 60px;
-    }
-
+    height: 525px;
+}
+#content2 {
+    padding-left: 60px;
+    height: 1030px;
+    background-color: var(--background);
+}
+#content3 {
+    padding-left: 60px;
+    height: 1030px;
+    background-color: var(--background);
+}
 .square {
     height: 430px;
     display: inline-block;
@@ -63,6 +70,11 @@ footer a i:hover {
  }
 .square img {
     width: 150px;
+    margin-left: 140px;
+    padding-top: 50px;
+}
+.square i {
+    font-size: 9.375em;
     margin-left: 140px;
     padding-top: 50px;
 }
