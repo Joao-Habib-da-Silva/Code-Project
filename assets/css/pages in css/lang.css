@@ -1,48 +1,53 @@
 @import url(/assets/css/global/global.css);
-:root {
-    --background: #1d3557;
-    --firstfont: #00b4d8;
-    --footer: #1d3d6b;
-    --footeri: #4cc9f0;
-    --square: #14263e;
-    --font: Poppins;
-}
+
 header {
-    background-color: var(--background);
+    background-color: var(--bg-color);
+}
+header i {
+    color: var(--original);
 }
 header i:hover {
-    color: var(--firstfont);
+    color: var(--hover-color);
+}
+header li {
+    color: var(--original);
 }
 header li:hover {
-    color: var(--firstfont);
+    color: var(--footeri);
+}
+header h1 {
+    color: var(--original);
 }
 header h1:hover {
-    color: var(--firstfont);
+    color: var(--hover-color);
 }
-#selected {
-    color: var(--firstfont);
+#lang {
+    background-color: var(--bg-color);
 }
 #navbar {
-    background-color: var(--background);
+    background-color: var(--bg-color);
+}
+#navbar li {
+    color: var(--original);
 }
 #navbar li:hover {
-    color: var(--firstfont);
+    color: var(--footeri);
 }
 #content {
-    background-color: var(--background);
+    background-color: var(--bg-color);
 }
 footer {
     background-color: var(--footer);
 }
 footer i {
-    color: white;
-}
-footer a i:hover {
-    border: 1px solid var(--footeri);
     color: var(--footeri);
 }
+footer a i:hover {
+    border: 1px solid #03045e;
+    color: #03045e;
+}
 #fpart {
-    background-color: var(--background);
+    background-color: var(--bg-color);
     display:flex;
     height: 1030px;
     padding-left: 60px;
@@ -60,6 +65,7 @@ footer a i:hover {
     font-family: poppins;
     scale: 1;
     transition:0.5s ease-in-out ;
+    color: white;
  }
 .square img {
     width: 150px;
@@ -83,11 +89,10 @@ footer a i:hover {
     padding: 50px;
 }
 .square button {
-    border: 2px solid var(--firstfont);
+    border: 2px solid #00b4d8;
     cursor: pointer;
     margin-top: 30px;
-
-    color: var(--firstfont);
+    color: #00b4d8;
     background-color: black;
     font-family: var(--font);
     width: 100px;
@@ -99,13 +104,13 @@ footer a i:hover {
 .square:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
-    border: 2px solid var(--firstfont);
-    box-shadow: 0px 0px 10px var(--firstfont);
+    border: 2px solid #00b4d8;
+    box-shadow: 0px 0px 10px #00b4d8;
 }
 .square button:hover {
-    border: 2ps solid var(--firstfont);
+    border: 2ps solid #00b4d8;
     transition: 0.5s ease-in-out;
-    box-shadow: 0px 0px 10px var(--firstfont);
+    box-shadow: 0px 0px 10px #00b4d8;
 }
 #text {
     background-color: var(--background);

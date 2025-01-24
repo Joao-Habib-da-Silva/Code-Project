@@ -1,47 +1,47 @@
 @import url(/assets/css/global/global.css); 
-:root {
-    --background: #9d4edd;
-    --fontcolor: #3c096c;
-}
-body {
-    color: white;
-}
+
 header {
-    background-color: var(--background);
+    background-color: var(--bg-color);
+}
+header i {
+    color: var(--original);
 }
 header i:hover {
-    color: #6a040f;
+    color: var(--hover-color);
+}
+header li {
+    color: var(--original);
 }
 header li:hover {
-    color: var(--fontcolor);
+    color: var(--hover-color);
+}
+header h1 {
+    color: var(--original);
 }
 header h1:hover {
-    color: var(--fontcolor);
-}
-#selected {
-    color: var(--fontcolor);
+    color: var(--hover-color);
 }
 #navbar {
-    background-color: var(--background);
+    background-color: var(--bg-color);
+}
+#navbar li {
+    color: var(--original);
 }
  #navbar li:hover {
-     color: var(--fontcolor);
+     color: var(--hover-color);
 }
 #content {
-    background-color: var(--background);
-}
-#container {
-    background-color: var(--background);
-    height: 640px;
-        
+    background-color: var(--bg-color);
+    color: var(--original);
 }
 #right {
     display: flex;
     float: right;
 
 }
-#container {
+#conta {
     overflow: auto;
+    color: var(--original);
 }
 #left {
     padding: 100px;
@@ -58,16 +58,21 @@ header h1:hover {
 #right img {
     border-radius: 100%;
     margin-right: 100px;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 #aboutproject {
-    background-color: #240046;
+    background-color: var(--aboutp) ;
 }
 #objectives {
-    background-color: #3c096c;
+    background-color: var(--objec);
+    color: var(--original);
 }
-    
+#conta {
+    background-color: var(--bg-color);
+    height: 640px;
+}
 #aboutproject {
+    color: var(--original);
     font-family: poppins;
     height: 200px;
     display: grid;
@@ -79,12 +84,8 @@ header h1:hover {
     margin-top: -40px;
 }
 #aboutproject a {
-    color: #3a0ca3;
+    color: #60afff;
     text-decoration: none;
-}
-#aboutproject a:hover {
-    color: #5115de;
-    transition: 0.5s ease-in-out;
 }
 #objectives {
     font-family: poppins;
@@ -99,22 +100,18 @@ header h1:hover {
     font-weight: 600;
 }
 #objectives a {
-    color: #3a0ca3;
+    color: #2473c2;
     text-decoration: none;
 }
-#objectives a:hover{
-    color: #5115de;
-    transition: 0.5s ease-in-out;
-}
 footer {
-    background-color: #5a189a;
+    background-color: var(--footer);
 }
 footer i {
-    color: white;
+    color: var(--footeri);
 }
 footer a i:hover {
-    border: 1px solid #03045e;
-    color: #03045e;
+    border: 1px solid var(--footeri);
+    border-radius: 50%;
 }
     
 

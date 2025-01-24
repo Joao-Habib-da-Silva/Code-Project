@@ -4,10 +4,28 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body {
-    color: white; 
-    overflow-x: hidden;
-    animation: Load 0.5s ease-in-out;
+:root {
+ --bg-color:#eaf4f4;
+ --hover-color: rgb(87, 87, 87);
+ --another: #03045e;
+ --aboutp: #adb5bd;
+ --objec: #dee2e6;
+ --footer: #dee2e6;
+ --footeri: #3f4246;
+ --font: poppins;
+ --square: #adb5bd;
+ --original:black;
+}
+:root.darktheme {
+    --bg-color: #1d3557;
+    --hover-color: #00b4d8;
+    --aboutp: #0466c8;
+    --objec: #023e7d;
+    --original: white;
+    --footer: #1d3d6b;
+    --footeri: #4cc9f0;
+    --square: #14263e;
+    --font: Poppins;
 }
 header {
     font-family: Poppins;
@@ -17,6 +35,7 @@ header {
     height: 80px;
     z-index: 10000;
     position: fixed;
+    width: 1480px;
 }
 header h1 {
     margin-left: 100px;
@@ -25,13 +44,11 @@ header h1 {
     cursor: pointer;
 }
 header a {
-    color: white;
     text-decoration: none;
 }
 header ul {
     padding-top: 30px;
-    margin-left: 550px;
-    margin-right: 50px;
+margin-left: 400px;
 }
 header li {
     font-weight: 700;
@@ -43,6 +60,7 @@ header i{
     font-size: 2.0em;
     margin-top: 23px;
     margin-right: 10px;
+    margin-left: 200px;
     cursor: pointer;
 }
 header i:hover {
@@ -55,7 +73,7 @@ header h1:hover {
     transition: 0.5s ;
 }
 #selected {
-    color: #ade8f4;
+    scale: 1.1;
 }
 #navbar {
     position: fixed;
@@ -67,7 +85,6 @@ header h1:hover {
     display: flex;
     transition: 1s ease-in-out; 
     height: 620px;
-    background-color: #ade8f4;
     height: 1000px;
     z-index: 1000;
 }
@@ -90,6 +107,26 @@ header h1:hover {
 }
 #navbar li:hover {
     transition: 0.5s ;
+}
+#container {
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: grey;
+}
+#ball {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left: 3px;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}
+#container.darktheme #ball {
+    margin-left: 40px;
+
 }
 #content {
  height: 640px;

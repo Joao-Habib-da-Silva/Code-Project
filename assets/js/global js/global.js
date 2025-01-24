@@ -8,3 +8,11 @@ window.document.addEventListener("keydown", function(event) {
         navbar.classList.toggle("open")
     }
 })
+
+
+var trail = window.document.getElementById("container")
+function Mode() {
+ trail.classList.toggle("darktheme")
+ var html = document.documentElement
+html.classList.toggle("darktheme")
+}

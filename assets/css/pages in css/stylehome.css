@@ -1,17 +1,49 @@
 @import url(/assets/css/global/global.css);
-:root {
-    --background: #669bbc;
-    --hover: #ade8f4;
 
-}
 img {
     width: 40px;
     height: 40px;
     margin-top: 20px;
 }
 body {
-    color: white;
-    background-color: var(--background);
+    color: var(--original);
+    background-color: var(--bg-color);
+}
+header {
+    background-color: var(--bg-color);
+}
+header li {
+    color: var(--original);
+}
+header i {
+    color: var(--original);
+}
+header h1 {
+    color: var(--original);
+}
+header h1:hover {
+    color: #03045e;
+}
+header li:hover {
+    color: var(--hover-color);
+}
+footer {
+    background-color: var(--footer);
+}
+footer i {
+    color: black;
+}
+footer i:hover {
+    scale: 1.1;
+    color: var(--footeri);
+    border: 1px solid var(--footeri);
+}
+#navbar {
+    background-color: var(--bg-color);
+    color: var(--original);
+}
+#navbar li {
+    color: var(--original);
 }
 #content {
     display: flex;
@@ -55,37 +87,4 @@ li::marker {
     color: transparent;
 }
 
-header {
-    background-color: var(--background);
 
-}
-header i:hover {
-    color: #03045e;
-}
-header li:hover {
-    color: var(--hover);
-}
-header h1:hover {
-    color: var(--hover);
-}
-#selected {
-    color: var(--hover);
-
-}
-#navbar {
-    background-color: var(--background);
-}
-#navbar li:hover {
-    color: var(--hover);
-}
-footer {
-    background-color: #5691b6;
-}
-footer i {
-    color: white;
-}
-footer a i:hover {
-  border: 1px solid #03045e;
-  color: #03045e;
-  
-}
