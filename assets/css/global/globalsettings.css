@@ -83,7 +83,7 @@ header h1:hover {
     font-size: large;
     transform: translatex(500px);
     display: flex;
-    transition: 1s ease-in-out; 
+    transition: 0.5s ease-in-out; 
     height: 620px;
     height: 1000px;
     z-index: 1000;
@@ -113,6 +113,7 @@ header h1:hover {
     height: 30px;
     border-radius: 30px;
     background-color: grey;
+    cursor: pointer;
 }
 #ball {
     width: 23px;
@@ -125,7 +126,7 @@ header h1:hover {
     transition: 0.5s ease-in-out;
 }
 #container.darktheme #ball {
-    margin-left: 40px;
+    margin-left: 45px;
 
 }
 #content {
