@@ -16,7 +16,7 @@
     --bg-color: black;
     --font: white;
     --hover: #a2d2ff;
-    --square: #023047;
+    --square: rgba(17, 40, 100, 0.3);
     --icon-fotter: #8ecae6;
 }
 header {
@@ -45,6 +45,7 @@ margin-left: 400px;
 header li {
     font-weight: 700;
     list-style: none;
+    position: relative;
     display: inline-block;
     margin-left: 30px;
 }
@@ -54,6 +55,21 @@ header i{
     margin-right: 10px;
     margin-left: 200px;
     cursor: pointer;
+}
+header li:after {
+    width: 0px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    border-radius: 30px;
+    background-color: var(--hover);
+    transition: 0.5s ease-in-out;
+}
+header li:hover::after {
+    width: 100%;
+
 }
 header i:hover {
     transition: 0.5s ease-in-out;
