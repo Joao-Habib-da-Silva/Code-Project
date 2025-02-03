@@ -1,3 +1,4 @@
+/*Principal configs*/
 * {
     margin: 0;
     padding: 0%;
@@ -5,6 +6,7 @@
     scroll-behavior: smooth;
     font-family: 'Poppins';
 }
+/*Pallets*/
 :root {
  --bg-color:#eaf4f4;
  --font: black;
@@ -19,6 +21,7 @@
     --square: rgba(17, 40, 100, 0.3);
     --icon-fotter: #8ecae6;
 }
+/*The header*/
 header {
     font-family: Poppins;
     justify-content: space-between;
@@ -83,6 +86,7 @@ header h1:hover {
 #selected {
     scale: 1.1;
 }
+/*Navbar*/
 #navbar {
     position: fixed;
     right: 0;
@@ -116,6 +120,7 @@ header h1:hover {
 #navbar li:hover {
     transition: 0.5s ;
 }
+/*Ball and trail*/
 #container {
     width: 70px;
     height: 30px;
@@ -140,7 +145,7 @@ header h1:hover {
 #content {
  height: 640px;
 }
-
+/*Footer*/
 footer {
     height: 150px;
     background-color: var(--bg-color);
