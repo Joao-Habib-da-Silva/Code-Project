@@ -3,29 +3,21 @@
     padding: 0%;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Poppins';
 }
 :root {
  --bg-color:#eaf4f4;
- --hover-color: rgb(87, 87, 87);
- --another: #03045e;
- --aboutp: #adb5bd;
- --objec: #dee2e6;
- --footer: #dee2e6;
- --footeri: #3f4246;
- --font: poppins;
- --square: #adb5bd;
- --original:black;
+ --font: black;
+ --hover: #2a9d8f;
+ --square: #d8e2dc;
+ --icon-fotter: #8ecae6;
 }
 :root.darktheme {
-    --bg-color: #1d3557;
-    --hover-color: #00b4d8;
-    --aboutp: #0466c8;
-    --objec: #023e7d;
-    --original: white;
-    --footer: #1d3d6b;
-    --footeri: #4cc9f0;
-    --square: #14263e;
-    --font: Poppins;
+    --bg-color: black;
+    --font: white;
+    --hover: #a2d2ff;
+    --square: #023047;
+    --icon-fotter: #8ecae6;
 }
 header {
     font-family: Poppins;
@@ -97,7 +89,7 @@ header h1:hover {
     color: white;
 }
 #navbar ul {
-    padding-top: 80px;
+    padding-top: 100px;
     margin-right: 80px;
     padding-left: 80px;
 }
@@ -135,6 +127,7 @@ header h1:hover {
 
 footer {
     height: 150px;
+    background-color: var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +137,7 @@ footer i {
     margin-left: 40px;
     border-radius: 60%;
     transform: scale(1);
+    color: var(--original);
     transition: 1s ease-in-out;
 }
 footer a i:hover {

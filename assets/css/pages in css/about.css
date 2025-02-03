@@ -2,37 +2,41 @@
 
 header {
     background-color: var(--bg-color);
+    transition: 0.5s ease-in-out;
 }
 header i {
-    color: var(--original);
+    color: var(--font);
 }
 header i:hover {
-    color: var(--hover-color);
+    color: var(--hover);
 }
 header li {
-    color: var(--original);
+    color: var(--font);
 }
 header li:hover {
-    color: var(--hover-color);
+    color: var(--hover);
 }
 header h1 {
-    color: var(--original);
+    color: var(--font);
 }
 header h1:hover {
-    color: var(--hover-color);
+    color: var(--hover);
 }
 #navbar {
     background-color: var(--bg-color);
 }
+#navbar ul {
+    padding-top: 200px ;
+}
 #navbar li {
-    color: var(--original);
+    color: var(--font);
 }
  #navbar li:hover {
-     color: var(--hover-color);
+     color: var(--hover);
 }
 #content {
     background-color: var(--bg-color);
-    color: var(--original);
+    color: var(--font);
 }
 #right {
     display: flex;
@@ -41,7 +45,7 @@ header h1:hover {
 }
 #conta {
     overflow: auto;
-    color: var(--original);
+    color: var(--font);
 }
 #left {
     padding: 100px;
@@ -61,22 +65,26 @@ header h1:hover {
     margin-top: 100px;
 }
 #aboutproject {
-    background-color: var(--aboutp) ;
+    background-color: var(--bg-color) ;
+    transition: 0.5s ease-in-out;
 }
 #objectives {
-    background-color: var(--objec);
-    color: var(--original);
+    background-color: var(--bg-color);
+    color: var(--font);
+    transition: 0.5s ease-in-out;
 }
 #conta {
     background-color: var(--bg-color);
     height: 640px;
+    transition: 0.5s ease-in-out;
 }
 #aboutproject {
-    color: var(--original);
+    color: var(--font);
     font-family: poppins;
     height: 200px;
     display: grid;
     place-items: center;
+    transition: 0.5s ease-in-out;
 }
 #aboutproject p {
     font-size: large;
@@ -92,6 +100,7 @@ header h1:hover {
      display: grid;
     place-items: center;
     height: 200px;
+    transition: 0.5s ease-in-out;
 
 }
  #objectives p {
@@ -104,14 +113,18 @@ header h1:hover {
     text-decoration: none;
 }
 footer {
-    background-color: var(--footer);
+    background-color: var(--bg-color);
+    transition: 0.5s ease-in-out;
 }
 footer i {
-    color: var(--footeri);
+    color: var(--font);
+    transition: 0.5s ease-in-out;
 }
 footer a i:hover {
-    border: 1px solid var(--footeri);
+    color: var(--hover);
+    border: 1px solid var(--hover);
     border-radius: 50%;
+    transition: 0.5s ease-in-out;
 }
     
 

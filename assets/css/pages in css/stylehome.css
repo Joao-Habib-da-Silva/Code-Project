@@ -10,43 +10,56 @@ img {
 }
 header {
     background-color: var(--bg-color);
+    transition: 0.5s ease-in-out;
 }
 header li {
-    color: var(--original);
+    color: var(--font);
 }
 header i {
-    color: var(--original);
+    color: var(--font);
+    transition: 0.5s ease-in-out;
 }
 header h1 {
-    color: var(--original);
+    color: var(--font);
+    transition: 0.5s ease-in-out;
 }
 header h1:hover {
-    color: #03045e;
+    color: var(--hover)
+}
+header li {
+    transition: 0.5s ease-in-out;
 }
 header li:hover {
-    color: var(--hover-color);
+    color: var(--hover);
 }
 #navbar {
     background-color: var(--bg-color);
-    color: var(--original);
 }
 #navbar li {
-    color: var(--original);
+    color: var(--font);
+}
+#navbar li:hover {
+    color: var(--hover);
 }
 footer {
-    background-color: var(--footer);
+    background-color: var(--bg-color);
+    transition: 0.5s ease-in-out;
 }
 footer i {
-    color: black;
+    color: var(--font);
+    transition: 0.5s ease-in-out;
 }
 footer i:hover {
     scale: 1.1;
-    color: var(--footeri);
-    border: 1px solid var(--footeri);
+    color: var(--icon-fotter);
+    border: 1px solid var(--icon-fotter);
 }
 #content {
     display: flex;
     align-items: center;
+    transition: 0.5s ease-in-out;
+    background-color: var(--bg-color);
+    color: var(--font);
 }
 #content img {
     float: left;
