@@ -1,0 +1,44 @@
+@import url(../global/global.css);
+header {
+    
+    background-color: var(--bg-color);
+}
+header li, h1 {
+    color: #d62828;
+    transition: 0.5s ease-in-out;
+}
+header li:hover {
+    color: #9b0000;
+}
+header h1:hover {
+    color: #9b0000;
+    transition: 0.5s ease-in-out;
+}
+header li:after {
+    background-color: #d62828;
+}
+header i {
+    color: var(--font);
+}
+#html {
+    height:40rem ;
+        background-color: var(--bg-color);
+    transition: 0.5s ease-in-out;
+}
+#navbar {
+    color: #d62828;
+}
+#navbar a {
+    color: #d62828;
+}
+#Navbar li {
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+#navbar li:hover {
+    color: #9b0000;
+    transition: 0.5s ease-in-out;
+}
+footer i {
+    color: var(--font);
+}

@@ -118,6 +118,7 @@ header h1:hover {
 }
 #navbar li {
     list-style:none;
+    position: relative;
     transition: 0.5s ease-in-out;
     margin-top: 30px;
 }
