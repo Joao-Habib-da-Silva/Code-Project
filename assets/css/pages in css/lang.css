@@ -1,4 +1,4 @@
-@import url(/assets/css/global/global.css);
+@import url(../global/global.css);
 
 header {
     background-color: var(--bg-color);
