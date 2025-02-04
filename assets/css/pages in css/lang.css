@@ -1,8 +1,8 @@
 @import url(../global/global.css);
-
+/*Colors*/
 header {
     background-color: var(--bg-color);
-    transition: 0.5s ease-in-out;
+  
 }
 header i {
     color: var(--font);
@@ -10,15 +10,13 @@ header i {
 }
 header i:hover {
     color: var(--hover);
-    transition: 0.5s ease-in-out;
 }
 header li {
     color: var(--font);
-    transition: 0.5s ease-in-out;
 }
 header li:hover {
     color: var(--hover);
-    transition: 0.5s ease-in-out;
+
 }
 header h1 {
     color: var(--font);
@@ -61,6 +59,7 @@ footer a i:hover {
     color: #03045e;
     transition: 0.5s ease-in-out;
 }
+/*Page style*/
 #fpart {
     background-color: var(--bg-color);
     display:flex;

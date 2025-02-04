@@ -1,8 +1,9 @@
 @import url(../global/global.css);
 body {
-    color: var(--original);
+    color: var(--font);
     background-color: var(--bg-color);
 } 
+/*Colors*/
 img {
     width: 40px;
     height: 40px;
@@ -54,6 +55,7 @@ footer i:hover {
     color: var(--icon-fotter);
     border: 1px solid var(--icon-fotter);
 }
+/*Page style*/
 #content {
     display: flex;
     align-items: center;

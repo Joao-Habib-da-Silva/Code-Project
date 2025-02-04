@@ -1,9 +1,9 @@
 @import url(../global/global.css); 
-
+/*Color configurations*/
 header {
     background-color: var(--bg-color);
-    transition: 0.5s ease-in-out;
 }
+
 header i {
     color: var(--font);
 }
@@ -38,6 +38,7 @@ header h1:hover {
     background-color: var(--bg-color);
     color: var(--font);
 }
+/*Page style*/
 #right {
     display: flex;
     float: right;
@@ -112,19 +113,17 @@ header h1:hover {
     color: #2473c2;
     text-decoration: none;
 }
+/*Footer*/
 footer {
     background-color: var(--bg-color);
-    transition: 0.5s ease-in-out;
 }
 footer i {
     color: var(--font);
-    transition: 0.5s ease-in-out;
 }
 footer a i:hover {
     color: var(--hover);
     border: 1px solid var(--hover);
     border-radius: 50%;
-    transition: 0.5s ease-in-out;
 }
     
 

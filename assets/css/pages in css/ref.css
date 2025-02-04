@@ -2,6 +2,7 @@
 * {
     font-family: poppins;
 }
+/*Color*/
 header {
     background-color: var(--bg-color);
     transition: 0.5s ease-in-out;
@@ -63,7 +64,7 @@ footer a i:hover {
     border: 1px solid var(--icon-fotter);
     color: var(--icon-fotter);
 }
-
+/*Page style*/
 #content {
     transition: 0.5s ease-in-out;
     padding-left: 60px;
