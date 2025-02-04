@@ -9,10 +9,26 @@ window.document.addEventListener("keydown", function(event) {
     }
 })
 
-
+var html = document.documentElement
 var trail = window.document.getElementById("container")
 function Mode() {
  trail.classList.toggle("darktheme")
- var html = document.documentElement
-html.classList.toggle("darktheme")
+ html.classList.toggle("darktheme")
+if(html.classList.contains("darktheme")) {
+    localStorage.setItem("theme", "dark")
+}
+else {
+    localStorage.setItem("theme", "light")
+}
+}
+window.onload = function() {
+    var savetheme = localStorage.getItem("theme")
+    if(savetheme === "dark") {
+        html.classList.add("darktheme")
+        trail.classList.add("darktheme")
+    }
+    else if(savetheme === "light") {
+        html.classList.remove("darktheme")
+        trail.classList.remove("darktheme")
+    }
 }
