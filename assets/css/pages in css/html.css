@@ -42,3 +42,6 @@ header i {
 footer i {
     color: var(--font);
 }
+footer i:hover {
+    color: #9b0000;
+}

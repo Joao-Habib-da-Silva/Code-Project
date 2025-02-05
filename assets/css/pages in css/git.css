@@ -1,0 +1,41 @@
+@import url(../global/global.css);
+header li, h1, i {
+    color: #d90429;
+}
+header {
+    transition: 0.5s ease-in-out;
+    background-color: var(--bg-color);
+}
+header li:hover {
+    color: #800e19;
+}
+header i:hover {
+    color: #800e19;
+    transition: 0.5s ease-in-out;
+}
+header h1:hover {
+    color: #800e19;
+    transition: 0.5s ease-in-out;
+}
+header h1 {
+    transition: 0.5s ease-in-out;
+}
+#git {
+    height: 40rem;
+    transition: 0.5s ease-in-out;
+    background-color: var(--bg-color);
+}
+#navbar li {
+    color:#d90429;
+    transition: 0.5s ease-in-out;
+}
+#navbar li:hover {
+    transition: 0.5s ease-in-out;
+    color: #800e19;
+}
+footer i {
+    color: var(--font);
+}
+footer i:hover {
+    color: #d90429;
+}

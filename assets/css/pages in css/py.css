@@ -1,0 +1,40 @@
+@import url(../global/global.css);
+header {
+    background-color: var(--bg-color);
+}
+header li, h1, i {
+    color: #134ba6;
+}
+header li:hover {
+    transition: 0.5s ease-in-out;
+    color: #00296b;
+}
+header h1:hover {
+    color: #00296b;
+}
+header i:hover {
+    color: #00296b;
+}
+header li:after {
+    background-color: #00296b;
+}
+#navbar {
+    background-color: var(--bg-color);
+}
+#navbar li {
+    color: #134ba6;
+}
+#navbar li:hover {
+    color: #00296b;
+}
+#python {
+    height: 40rem;
+    transition: 0.5s ease-in-out;
+    background-color: var(--bg-color);
+}
+footer i {
+    color: var(--font);
+}
+footer i:hover {
+    color:#00296b;
+}
